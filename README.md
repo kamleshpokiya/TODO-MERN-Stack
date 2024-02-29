@@ -41,7 +41,13 @@ To run the TODO app, follow these steps:
 - POST api/todos: Create a new TODO item.
 - PUT api/todos/:id: Update a TODO item by ID.
 - DELETE api/todos/:id: Delete a TODO item by ID.
-  
+
+# Images
+![image](https://github.com/kamleshpokiya/TODO-MERN-Stack/assets/16851404/b2133439-c241-4340-93a5-1e2390c822d2)
+
+![image](https://github.com/kamleshpokiya/TODO-MERN-Stack/assets/16851404/f4dfc642-b899-44c0-bda0-45eb76061536)
+
+
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
