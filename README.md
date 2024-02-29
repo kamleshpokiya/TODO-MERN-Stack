@@ -36,13 +36,13 @@ To run the TODO app, follow these steps:
    # start the frontend
    npm run dev
    ```
-#API Endpoints
+# API Endpoints
 - GET api/todos: Get all TODO items.
 - POST api/todos: Create a new TODO item.
 - PUT api/todos/:id: Update a TODO item by ID.
 - DELETE api/todos/:id: Delete a TODO item by ID.
   
-#Contributing
+# Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
