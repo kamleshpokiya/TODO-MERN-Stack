@@ -85,14 +85,21 @@ const TodoApp = () => {
         >
           Add Todo
         </Button>
-
-        <Paper sx={{ mt: 4 }}>
-          <TodoList
-            todos={todos}
-            onEdit={handleOpenEditDialog}
-            onDelete={handleDeleteTodo}
-          />
-        </Paper>
+        {todos.length > 0 ? (
+          <Paper sx={{ mt: 4 }} elevation={3}>
+            <TodoList
+              todos={todos}
+              onEdit={handleOpenEditDialog}
+              onDelete={handleDeleteTodo}
+            />
+          </Paper>
+        ) : (
+          <Paper sx={{ mt: 4, p:4 }} elevation={3}>
+            <Typography variant="h3" align="center" gutterBottom>
+              You haven't added any TODO yet.
+            </Typography>
+          </Paper>
+        )}
       </Box>
       {/* <TodoDialog
         open={openEditDialog}
